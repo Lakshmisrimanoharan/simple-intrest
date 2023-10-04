@@ -1,0 +1,22 @@
+# simple-intrest
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter p value:");
+int p=sc.nextInt();
+System.out.println("Enter n value:");
+int n=sc.nextInt();
+System.out.println("Enter r value:");
+int r=sc.nextInt();
+int SI=(p*n*r)/100;
+System.out.println(SI);
+}
+}
+
+output :
+Enter p value:10
+Enter p value:10
+Enter p value:10
+10
